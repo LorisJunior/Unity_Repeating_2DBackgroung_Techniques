@@ -24,7 +24,7 @@ public class BackgroundParallax : MonoBehaviour
     }
     void Update() 
     {
-        transform.position = transform.position + Vector3.right * Time.deltaTime * 3f;
+        transform.position = transform.position + Vector3.right * Time.deltaTime * 10f;
 
         for (int i = 0; i < sprites.Length; i++)
         {

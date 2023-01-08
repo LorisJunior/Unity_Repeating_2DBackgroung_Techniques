@@ -16,6 +16,7 @@ public class BgLoopRefined : MonoBehaviour
     }
     void Update() 
     {
+        transform.position = transform.position + Vector3.right * Time.deltaTime * 10f;
         background.transform.position = currentWorldPosition;
         float distance = Mathf.Abs(background.transform.localPosition.x);
 
